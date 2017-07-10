@@ -283,7 +283,7 @@
 	
 	/*project-display*/
 	#ajax-content-outer{width:100%;overflow:hidden; position:relative;}
-	#ajax-content-inner{float:left;height:0;opacity:0; overflow:}
+	#ajax-content-inner{float:left;height:0;opacity:0; overflow:hidden}
 	#ajaxpage{float:left;}
 	.project-display{width:600px;float:left;margin:0 40px 30px 0;overflow:hidden;}
 	.project-display.fullwidth{width:930px; margin-right:0; overflow:hidden;}
@@ -338,7 +338,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 		.blog-post.post-last{/*border-bottom:none; */margin-bottom:20px;}
 			.blog-post-info{width:50px; float:left;margin-right:30px; color:#666;}
 			.blog-post-info span.month{font:25px/18px 'Open Sans', sans-serif;font-weight:bold; text-transform:uppercase;}
-			.blog-post-info span.day{font:50px/40px 'Open Sans', sans-serif;font-weight:bold; text-transform:uppercase; letter-spacing: -2;}
+			.blog-post-info span.day{font:50px/40px 'Open Sans', sans-serif;font-weight:bold; text-transform:uppercase; letter-spacing: -2px;}
 			.blog-post-info span.year{font:23px/18px 'Open Sans', sans-serif;font-weight:bold; text-transform:uppercase;}
 			.blog-post-content{width:600px; float:left;}
 			.blog-post-content p:last-child{margin-bottom:0px;}
@@ -757,7 +757,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 --------------------------------------------------------*/		
 
 	/*highlight selection*/
-	::selection,::-moz-selection, {background: #ff005a;color:#fff;}
+	::selection {background: #ff005a;color:#fff;}
 	::-moz-selection {background: #ff005a;color:#fff;}	
 	::-webkit-selection { background:#ff005a; color:#fff; }
 
@@ -773,7 +773,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 		.section.even .message_box:hover{background:#222;border:1px solid #070707;color:#666;}
 	
 
-	pre {white-space: pre-wrap;/* css-3 */white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */white-space: -pre-wrap;/* Opera 4-6 */white-space: -o-pre-wrap;/* Opera 7 */
+	pre {white-space: pre-wrap;/* css-3 */white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */white-space: pre-wrap;/* Opera 4-6 */white-space: -o-pre-wrap;/* Opera 7 */
 word-wrap: break-word;/* Internet Explorer 5.5+ */
 	}
 	
