@@ -1,0 +1,474 @@
+
+#fancybox-outer,#fancybox-content iframe {
+	background-image:url(../images/skin/lightbox_logo.png);
+}
+
+.header {
+	background:#000000;
+	background:rgba(0,0,0,1);
+}
+
+.menu ul li a {
+	color:#cccccc;
+}
+
+.menu ul li a:hover {
+	color:#ff2778;
+}
+
+.menu ul li.current_page_item > a, .header .inner .menu ul li.current-menu-item > a {
+	background:#333333;
+	color:#eeeeee;
+}
+
+.menu ul li.current > a, .menu ul li.current-menu-item > a, .menu ul li.current_page_item > a, .menu ul li.current-menu-ancestor > a, .menu ul li.current_page_ancestor > a{
+	background:#333333;
+	color:#eeeeee;
+}
+
+.menu ul li:hover > a{
+	background:#000000;
+	color:#ff2778;
+}
+
+.menu .sub-menu, .menu .children {
+	background:#000000;
+	background:rgba(0,0,0,1);
+}
+
+.menu .sub-menu li a,.menu .children li a {
+	color:#cccccc;
+}
+
+.menu .sub-menu li:hover > a,.menu .children li:hover > a {
+	background:#000000;
+	color:#ff2778;
+}
+
+.folio-thumb a .folio-thumb-rollover, .round-thumb a .thumb-rollover, .thumb a .thumb-rollover {
+	background: #101010;
+	background: rgba(16, 16, 16, 0.9);
+}
+
+.folio-thumb.active {
+	-webkit-box-shadow:inset 0px 0px 0px 10px rgba(16, 16, 16, 0.9) !important;
+	-moz-box-shadow:inset 0px 0px 0px 10px rgba(16, 16, 16, 0.9) !important;
+	box-shadow:inset 0px 0px 0px 10px rgba(16, 16, 16, 0.9) !important;
+}
+
+.section.odd .chart-container ul li div {
+	background-color:#FF2778;
+	-webkit-box-shadow:inset 1px 0 0 #ffffff;
+	-moz-box-shadow:inset 1px 0 0 #ffffff;
+	box-shadow:inset 1px 0 0 #ffffff;
+}
+
+.section.even .chart-container ul li div {
+	background-color:#fc7022;
+	-webkit-box-shadow:inset 1px 0 0 #ffffff;
+	-moz-box-shadow:inset 1px 0 0 #ffffff;
+	box-shadow:inset 1px 0 0 #ffffff;
+}
+
+.submitTheme, #commentform #submit {
+	background:#ff005a !important;
+	color:#ffffff !important;
+}
+
+#footer {
+	background:#353535 url(../images/skin/footer_pattern.png);
+	color:#999999;
+}
+
+#footer a {
+	color:#ff005a;
+}
+
+#footer a:hover {
+	color:#ff005a;
+}
+
+.section.odd {
+	background:#e9e9e9 url(../images/skin/section_background_pattern_odd.png);
+}
+
+.section.even {
+	background:#f4f4f5 url(../images/skin/section_background_pattern_even.png);
+}
+
+.section.odd .divider {
+	border-color:#dddddd;
+}
+.section.odd .section-title,
+.section.odd .blog-post,
+.section.odd .blog-post.sticky,
+.section.odd #sidebar ul li,
+.section.odd .blog-post-comments,
+.section.odd .comment_list li,
+.section.odd .pagination, .section.odd .blog-post-navigation,
+.section.odd #comments {
+	border-color:#dddddd !important;
+}
+
+.section.even .divider {
+	border-color:#dddddd;
+}
+.section.even .section-title,
+.section.even .blog-post,
+.section.even .blog-post.sticky,
+.section.even #sidebar ul li,
+.section.even .blog-post-comments,
+.section.even .comment_list li,
+.section.even .pagination, .section.even .blog-post-navigation,
+.section.even #comments  {
+	border-color:#dddddd !important;
+}
+
+.section.odd h1, .section.odd h2, .section.odd h3, .section.odd h4, .section.odd h5, .section.odd h6,
+.section.odd .section-title, 
+.section.odd .section-title h1, .section.odd .section-title h2, .section.odd .section-title h3, 
+.section.odd .section-title h4, .section.odd .section-title h5, .section.odd .section-title h6,
+.section.odd .section-title h1 a, .section.odd .section-title h2 a, .section.odd .section-title h3 a, 
+.section.odd .section-title h4 a, .section.odd .section-title h5 a, .section.odd .section-title h6 a,
+.section.odd .blog-post-content h3 a {
+	color:#000000;
+}
+
+.section.odd h1 span, .section.odd h2 span, .section.odd h3 span, .section.odd h4 span, .section.odd h5 span, .section.odd h6 span,
+.section.odd .section-title span, 
+.section.odd .section-title h1 span, .section.odd .section-title h2 span, .section.odd .section-title h3 span, 
+.section.odd .section-title h4 span, .section.odd .section-title h5 span, .section.odd .section-title h6 span, 
+.section.odd .section-title h1 span a, .section.odd .section-title h2 span a, .section.odd .section-title h3 span a, 
+.section.odd .section-title h4 span a, .section.odd .section-title h5 span a, .section.odd .section-title h6 span a,
+.section.odd .blog-post-info {
+	color:#666666;
+}
+
+.section.even h1, .section.even h2, .section.even h3, .section.even h4, .section.even h5, .section.even h6,
+.section.even .section-title, 
+.section.even .section-title h1, .section.even .section-title h2, .section.even .section-title h3, 
+.section.even .section-title h4, .section.even .section-title h5, .section.even .section-title h6,
+.section.even .section-title h1 a, .section.even .section-title h2 a, .section.even .section-title h3 a, 
+.section.even .section-title h4 a, .section.even .section-title h5 a, .section.even .section-title h6 a,
+.section.even .blog-post-content h3 a {
+	color:#333333;
+}
+
+.section.even h1 span, .section.even h2 span, .section.even h3 span, .section.even h4 span, .section.even h5 span, .section.even h6 span,
+.section.even .section-title span, 
+.section.even .section-title h1 span, .section.even .section-title h2 span, .section.even .section-title h3 span, 
+.section.even .section-title h4 span, .section.even .section-title h5 span, .section.even .section-title h6 span, 
+.section.even .section-title h1 span a, .section.even .section-title h2 span a, .section.even .section-title h3 span a, 
+.section.even .section-title h4 span a, .section.even .section-title h5 span a, .section.even .section-title h6 span a,
+.section.even .blog-post-info {
+	color:#666666;
+}
+
+.section.odd, .section.odd blockquote, .section.odd #sidebar ul li ul li a {
+	color:#888888;
+}
+
+.section.even, .section.even blockquote, .section.even #sidebar ul li ul li a {
+	color:#888888;
+}
+
+.section.odd a, .section.odd #comments a.comment-reply-link, .section.odd .blog-post.sticky h3.post-title a {
+	color:#ff005a;
+}
+
+.section.odd a:hover, .section.odd #comments a.comment-reply-link:hover, .section.odd #sidebar ul li ul li a:hover {
+	color:#ff005a;
+}
+
+.section.even a, .section.even #comments a.comment-reply-link, .section.even .blog-post.sticky h3.post-title a {
+	color:#ff005a;
+}
+
+.section.even a:hover, .section.even #comments a.comment-reply-link:hover, .section.even #sidebar ul li ul li a:hover {
+	color:#ff005a;
+}
+
+.section.odd blockquote {
+	border-color:#999999;
+}
+
+.section.even blockquote {
+	border-color:#999999;
+}
+
+.section.odd blockquote.quote {
+	background-image:url(../images/skin/quote_blockquote_odd.png);
+}
+
+.section.even blockquote.quote {
+	background-image:url(../images/skin/quote_blockquote_even.png);
+}
+
+.section.odd input[type=text], .section.odd textarea,
+.section.odd input[type=text].required, .section.odd textarea.required,
+.section.odd #sidebar ul li .txtFld {
+	background-color:#ffffff;
+	border-color:#e6e6e6;
+	color:#999999;
+}
+
+.section.even input[type=text], .section.even textarea,
+.section.even input[type=text].required, .section.even textarea.required,
+.section.even #sidebar ul li .txtFld {
+	background-color:#ffffff;
+	border-color:#e6e6e6;
+	color:#999999;
+}
+
+.section.odd input[type=text].required, .section.odd textarea.required {
+	background-image:url(../images/skin/required_field_graphic_odd.png);
+}
+
+.section.even input[type=text].required, .section.even textarea.required {
+	background-image:url(../images/skin/required_field_graphic_even.png);
+}
+
+.section.odd input[type=text]:hover, .section.odd textarea:hover, .section.odd #sidebar ul li .txtFld:hover {
+	background-color:#f9f9f9;
+	border-color:#dddddd;
+	color:#888888;
+}
+
+.section.even input[type=text]:hover, .section.even textarea:hover, .section.even #sidebar ul li .txtFld:hover {
+	background-color:#f9f9f9;
+	border-color:#dddddd;
+	color:#888888;
+}
+
+.section.odd input[type=text]:focus, .section.odd textarea:focus, .section.odd #sidebar ul li .txtFld:focus {
+	background-color:#ffffff;
+	border-color:#dddddd;
+	color:#888888;
+}
+
+.section.even input[type=text]:focus, .section.even textarea:focus, .section.even #sidebar ul li .txtFld:focus {
+	background-color:#ffffff;
+	border-color:#dddddd;
+	color:#888888;
+}
+
+.section.odd .loading-animation {
+	background-image:url(../images/skin/contact_loading_gif_odd.gif);
+}
+
+.section.even .loading-animation {
+	background-image:url(../images/skin/contact_loading_gif_even.gif);
+}
+
+.section.odd .accordion dt, .section.odd .tabs .tabs_nav li {
+	background-color:#dddddd;
+}
+.section.odd .accordion dt, .section.odd .accordion dd, .section.odd .tabs .tabs_nav li, .section.odd .tabs .tabs_content {
+	border-color:#dddddd;
+}
+.section.odd .accordion dt.active, .section.odd .tabs .tabs_nav li.active {
+	background-color:#666666;
+}
+.section.odd .accordion dt a, .section.odd .tabs .tabs_nav li a, .section.odd .accordion dt a:hover, .section.odd .tabs .tabs_nav li a:hover {
+	color:#999999;
+}
+.section.odd .accordion dt.active a, .section.odd .tabs .tabs_nav li.active a, .section.odd .accordion dt.active a:hover, .section.odd .tabs .tabs_nav li.active a:hover {
+	color:#ffffff;
+}
+.section.odd .accordion dd, .section.odd .tabs .tabs_content {
+	background-color:#f9f9f9;
+}
+
+.section.even .accordion dt, .section.even .tabs .tabs_nav li {
+	background-color:#dddddd;
+}
+.section.even .accordion dt, .section.even .accordion dd, .section.even .tabs .tabs_nav li, .section.even .tabs .tabs_content {
+	border-color:#dddddd;
+}
+.section.even .accordion dt.active, .section.even .tabs .tabs_nav li.active {
+	background-color:#666666;
+}
+.section.even .accordion dt a, .section.even .tabs .tabs_nav li a, .section.even .accordion dt a:hover, .section.even .tabs .tabs_nav li a:hover {
+	color:#999999;
+}
+.section.even .accordion dt.active a, .section.even .tabs .tabs_nav li.active a, .section.even .accordion dt.active a:hover, .section.even .tabs .tabs_nav li.active a:hover {
+	color:#ffffff;
+}
+.section.even .accordion dd, .section.even .tabs .tabs_content {
+	background-color:#f9f9f9;
+}
+
+.section.odd .pricing_table .pricing_table_col, .section.odd .pricing_table .pricing_table_col > ul > li {
+	border-color:#dddddd;
+}
+.section.odd .pricing_table .pricing_table_col > ul > li:first-child {
+	background-color:#666666;
+	color:#eeeeee;
+}
+.section.odd .pricing_table .pricing_table_col > ul > li.pricing_table_bg {
+	background-color:#f4f4f4;
+	color:#666666;
+}
+.section.odd .pricing_table .pricing_table_col > ul > li span.price, .section.odd .pricing_table .pricing_table_col > ul > li span.price_affix {
+	color:#666666;
+}
+.section.odd .pricing_table .pricing_table_col > ul > li.pricing_table_bg {
+	background:#f4f4f4;
+}
+.section.odd .pricing_table .pricing_table_col {
+	background:#f9f9f9;
+}
+.section.odd .pricing_table .pricing_table_col > ul > li {
+	color:#999999;
+}
+
+.section.even .pricing_table .pricing_table_col, .section.even .pricing_table .pricing_table_col > ul > li {
+	border-color:#dddddd;
+}
+.section.even .pricing_table .pricing_table_col > ul > li:first-child {
+	background-color:#666666;
+	color:#eeeeee;
+}
+.section.even .pricing_table .pricing_table_col > ul > li.pricing_table_bg {
+	background-color:#f4f4f4;
+	color:#666666;
+}
+.section.even .pricing_table .pricing_table_col > ul > li span.price, .section.even .pricing_table .pricing_table_col > ul > li span.price_affix {
+	color:#666666;
+}
+.section.even .pricing_table .pricing_table_col > ul > li.pricing_table_bg {
+	background:#f4f4f4;
+}
+.section.even .pricing_table .pricing_table_col {
+	background:#f9f9f9;
+}
+.section.even .pricing_table .pricing_table_col > ul > li {
+	color:#999999;
+}
+
+.epicSlider .epic-logo {
+	background:#000000 url(../images/skin/epic_slider_logo.png) no-repeat center center;
+}
+.epicSlider.theme-default #epic-navigation .nav-button #next:hover, 
+.epicSlider.theme-default #epic-navigation .nav-button #prev:hover,
+.epicSlider.theme-default #epic-navigation .nav-button #progress,
+.epic-caption-striped a:hover span {
+	background-color:#ff005a;
+}
+.epic-caption-impact a:hover, .epic-caption-impact a span:hover, .epic-caption-boxed a, .epic-caption-elegant a {
+	color:#ff005a;
+}
+.epicSlider.theme-default #epic-overlay, .teaser .info-container {
+	background-image:url(../images/skin/slider_overlay_pattern.png);
+}
+
+.section.odd #ajaxwrapper #loader, .section.even #ajaxwrapper #loader {
+	background:url(../images/skin/portfolio_loading_gif.gif) center -40px no-repeat;
+}
+#folio-navigation ul li#prevProject a {
+	background: rgba(0,0,0,0.5) url(../images/skin/project-nav.png) 0 0 no-repeat;
+}
+#folio-navigation ul li#nextProject a {
+	background: rgba(0,0,0,0.5) url(../images/skin/project-nav.png) 0 -39px no-repeat;
+}
+#folio-navigation ul li#closeProjectMobile a {
+	background: rgba(0,0,0,0.3) url(../images/skin/project-close.png) center center no-repeat;
+}
+#closeProject a {
+	background: rgba(0,0,0,0.5) url(../images/skin/project-close.png) center -9.5px no-repeat;
+}
+#closeProject a:hover{
+	background: rgba(255,0,90,1) url(../images/skin/project-close.png) center -9.5px no-repeat !important;
+}
+#folio-navigation ul li#prevProject a:hover {
+	background: rgba(255,0,90,1) url(../images/skin/project-nav.png)0 0;
+}
+#folio-navigation ul li#nextProject a:hover {
+	background: rgba(255,0,90,1) url(../images/skin/project-nav.png)0 -39px;
+}
+#folio-navigation ul li#closeProjectMobile a:hover {
+	background: rgba(255,0,90,1) url(../images/skin/project-close.png) center 0 no-repeat;
+}
+#folio-navigation ul li#prevProject a.disabled {
+	background: rgba(51,51,51,0.3) url(../images/skin/project-nav.png)0 -80px !important;
+}
+#folio-navigation ul li#nextProject a.disabled {
+	background: rgba(51,51,51,0.3) url(../images/skin/project-nav.png)0 -120px !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
+.section-title {
+	font-family:"Abril Fatface", cursive;
+}
+
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span,
+h1 small span, h2 small span, h3 small span, h4 small span, h5 small span, h6 small span,
+.section-title span {
+	font-family:"Abril Fatface", cursive;
+}
+
+h1 { font-size:40px; line-height:40px; }
+h1 span { font-size:40px; line-height:38px; }
+h2 { font-size:38px; line-height:38px; }
+h2 span { font-size:38px; line-height:38px; }
+h3 { font-size:35px; line-height:35px; }
+h3 span { font-size:35px; line-height:35px; }
+h4 { font-size:32px; line-height:32px; }
+h4 span { font-size:32px; line-height:32px; }
+h5 { font-size:28px; line-height:28px; }
+h5 span { font-size:28px; line-height:28px; }
+h6 { font-size:24px; line-height:24px; }
+h6 span { font-size:24px; line-height:24px; }
+
+.teaser h1 { font-size:40px; line-height:40px; }
+.teaser h1 span { font-size:40px; line-height:38px; }
+.teaser h2 { font-size:38px; line-height:38px; }
+.teaser h2 span { font-size:38px; line-height:38px; }
+.teaser h3 { font-size:35px; line-height:35px; }
+.teaser h3 span { font-size:35px; line-height:35px; }
+.teaser h4 { font-size:32px; line-height:32px; }
+.teaser h4 span { font-size:32px; line-height:32px; }
+.teaser h5 { font-size:28px; line-height:28px; }
+.teaser h5 span { font-size:28px; line-height:28px; }
+.teaser h6 { font-size:24px; line-height:24px; }
+.teaser h6 span { font-size:24px; line-height:24px; }
+
+.section-title h1, .section .section-title h1, .section .section-title h2 {
+	font-size:100px; line-height:85px;
+}
+.section-title h1 span, .section .section-title h1 span, .section .section-title h2 span {
+	font-size:100px; line-height:85px;
+}
+.section-title h1 small, .section .section-title h1 small, .section .section-title h2 small {
+	font-size:38px; line-height:35px;
+}
+.section-title h1 small span, .section .section-title h1 small span, .section .section-title h2 small span {
+	font-size:38px; line-height:35px;
+}
+
+.epic-caption-impact {
+	font-family:"Abril Fatface", cursive;
+}
+.epic-caption-impact span.font_variation {
+	font-family:"Quicksand", sans-serif;
+}
+.epic-caption-striped {
+	font-family:"Abril Fatface", cursive;
+}
+.epic-caption-striped span.font_variation {
+	font-family:"Quicksand", sans-serif;
+}
+.epic-caption-boxed h1, .epic-caption-boxed h2, .epic-caption-boxed h3, .epic-caption-boxed h4, .epic-caption-boxed h5, .epic-caption-boxed h6 {
+	font-family:"Abril Fatface", cursive;
+}
+.epic-caption-boxed h1 span, .epic-caption-boxed h2 span, .epic-caption-boxed h3 span, .epic-caption-boxed h4 span, .epic-caption-boxed h5 span, .epic-caption-boxed h6 span {
+	font-family:"Quicksand", sans-serif;
+}
+.epic-caption-elegant h1, .epic-caption-elegant h2, .epic-caption-elegant h3, .epic-caption-elegant h4, .epic-caption-elegant h5, .epic-caption-elegant h6 {
+	font-family:"Abril Fatface", cursive;
+}
+.epic-caption-elegant h1 span, .epic-caption-elegant h2 span, .epic-caption-elegant h3 span, .epic-caption-elegant h4 span, .epic-caption-elegant h5 span, .epic-caption-elegant h6 span {
+	font-family:"Quicksand", sans-serif;
+}
+
